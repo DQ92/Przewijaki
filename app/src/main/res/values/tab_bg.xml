@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer-array name="androidcolors">
+
+        <item>@color/my_white</item>
+
+        <item>@color/tab_bg_selected</item>
+        <item>@color/tab_bg_unselected</item>
+
+
+    </integer-array>
+
+</resources> 

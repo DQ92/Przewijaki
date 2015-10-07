@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Przewijaki</string>
+    <string name="dialog_gps_msg">Uruchom lokalizację</string>
+    <string name="ok">Uruchom</string>
+    <string name="cancel">Wyjdź</string>
+
+
+    <string name="Tab1">Mapa</string>
+    <string name="Tab2">Szukaj</string>
+    <string name="Tab3">Lista</string>
+    <string name="Tab4">O aplikacji</string>
+    <string name="title_describe_app">Drodzy Rodzice,</string>
+    <string name="describe_app">jesteśmy grupą aktywnie działających rodziców z Cieszyna.
+        Podróżując po Polsce z naszymi dziećmi wielokrotnie zetknęliśmy się
+        z niemożnością przewinięcia naszych pociech w trasie. Na
+        stacjach, które odwiedziliśmy nie było miejsca na zmianę pieluszki.
+        Dlatego wspólnie z Fundacją Mama postanowiliśmy to zmienić.
+        Chcemy poruszyć tę sprawę w mediach i wpłynąć na koncerny
+        naftowe, aby wyposażyły swoje stacje w przewijaki.</string>
+    <string name="radius_text">Wybierz promień w km.</string>
+
+
+    <string-array name="tabs_name">
+        <item>@string/Tab1</item>
+        <item>@string/Tab3</item>
+        <item>@string/Tab4</item>
+    </string-array>
+
+</resources>

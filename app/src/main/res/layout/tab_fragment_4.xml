@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0dp"
+    android:background="@drawable/clouds_bottom"
+    android:padding="25dp">
+
+
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo_about" />
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="25dp"
+        android:text="Przewijaki"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_iv"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+
+        <TextView
+            android:id="@+id/title_describe_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_describe_app"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/describe_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/describe_app"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <ImageButton
+            android:id="@+id/email_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_email_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/email_btn"
+            android:layout_toRightOf="@+id/email_btn"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:text="Napisz do nas"
+            android:textSize="@dimen/text_size_btn_about" />
+
+
+        <ImageButton
+            android:id="@+id/www_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_www_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/email_btn"
+            android:layout_toRightOf="@+id/email_btn"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:text="WWW"
+            android:textSize="@dimen/text_size_btn_about" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/version_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttons"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:scaleType="centerCrop"
+        android:text="..."
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

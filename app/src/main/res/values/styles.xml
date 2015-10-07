@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme.
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style> -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme" parent="android:Theme">
+        <item name="android:background">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/material_blue_grey_800</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_option">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/material_blue_grey_800</item>
+    </style>
+
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layout_fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="layout_f_w">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.5dip</item>
+        <item name="android:background">@color/wallet_holo_blue_light</item>
+    </style>
+
+    <style name="indicator_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4dip</item>
+        <item name="android:background">@color/wallet_holo_blue_light</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
+
